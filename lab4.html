@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Page 1</title>
+    <link rel="stylesheet" href="lab3.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/purecss@2.0.6/build/pure-min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    
+  </head>
+
+  <body>
+    <div class="box2">
+      <div class="header">
+        <div class="logo-container">
+          <img src="logo_com.png" class="logoo" alt="company Logo">
+          <h1 class="kri">Kriprivri</h1>
+        </div>
+        <div class="search-box">
+          <input
+            type="text"
+            placeholder="Search Product..."
+            class="search-bar"
+          />
+          <div class="search-icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="lucide lucide-search"
+            >
+              <circle cx="11" cy="11" r="8" />
+              <path d="m21 21-4.3-4.3" />
+            </svg>
+          </div>
+        </div>
+        <div class="options">
+          <a href="login.html" class="login">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="lucide lucide-user"
+            >
+              <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2" />
+              <circle cx="12" cy="7" r="4" />
+            </svg>
+            Login
+          </a>
+          <div class="vl"></div>
+          <div class="signup">Signup</div>
+          <div class="cart">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="lucide lucide-shopping-cart"
+            >
+              <circle cx="8" cy="21" r="1" />
+              <circle cx="19" cy="21" r="1" />
+              <path
+                d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+      <div class="main-container">
+        <div class="carousel-container">
+          <div class="navbar">
+            <div class="pure-menu custom-display">
+              <ul class="pure-menu-list">
+                <li class="pure-menu-item pure-menu-has-children pure-menu-allow-hover">
+                  <a href="#" class="pure-menu-link">Electronics</a>
+                  <ul class="pure-menu-children">
+                    <li class="pure-menu-item">
+                      <a href="#" class="pure-menu-link">Home Appliances</a>
+                    </li>
+                    <li class="pure-menu-item">
+                      <a href="#" class="pure-menu-link">Life style</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="pure-menu-item">
+                  <a href="#" class="pure-menu-link"> Health & Beauty</a>
+                </li>
+
+
+                <li class="pure-menu-item pure-menu-has-children pure-menu-allow-hover">
+                  <a href="#" class="pure-menu-link">Men's Fashion</a>
+                  <ul class="pure-menu-children">
+                    <li class="pure-menu-item">
+                      <a href="#" class="pure-menu-link">Semi-formal</a>
+                    </li>
+                    <li class="pure-menu-item">
+                      <a href="#" class="pure-menu-link">Casual</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="pure-menu-item">
+                  <a href="#" class="pure-menu-link">Women's Fashion</a>
+                </li>
+                <li class="pure-menu-item">
+                  <a href="#" class="pure-menu-link">Sports </a>
+                </li>
+                <li class="pure-menu-item">
+                  <a href="#" class="pure-menu-link">Groceries</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="carousel-slider">
+            <div class="carousel" data-carousel>
+              <button class="carousel-button prev" data-carousel-button="prev">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="lucide lucide-chevron-left"
+                >
+                  <path d="m15 18-6-6 6-6" />
+                </svg>
+              </button>
+              <button class="carousel-button next" data-carousel-button="next">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="lucide lucide-chevron-right"
+                >
+                  <path d="m9 18 6-6-6-6" />
+                </svg>
+              </button>
+              <ul data-slides>
+                <li class="slide" data-active>
+                  <img src="pics1.jpg" alt="Nature Image #1" />
+                </li>
+                <li class="slide">
+                  <img src="pics2.jpg" alt="Nature Image #2" />
+                </li>
+                <li class="slide">
+                  <img src="pics3.avif" alt="Nature Image #3" />
+                </li>
+                <li class="slide">
+                  <img src="pics4.jpg" alt="Nature Image #3" />
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="sales-container">
+          <div class="flashsales">
+            <span>FLASH SALE</span>
+            <div class="product-container">
+              <div class="product">
+                <img src="iron.jpg" alt="" />
+                <div class="desc">Hair Straightener</div>
+                <div class="price">Rs 2000</div>
+                <button id="addtocart" class="addCart">Add to cart</button>
+              </div>
+              <div class="product">
+                <img src="bat.jpg" alt="" />
+                <div class="desc">Cricket Bat</div>
+                <div class="price">Rs 1800</div>
+                <button id="addtocart" class="addCart">Add to cart</button>
+              </div>
+              <div class="product">
+                <img src="shirt.jpg" alt="" />
+                <div class="desc">Red Botton-Up For Men</div>
+                <div class="price">Rs 899</div>
+                <button id="addtocart" class="addCart">Add to cart</button>
+              </div>
+              <div class="product">
+                <img src="makeup.jpg" alt="" />
+                <div class="desc">Huda Beauty Eyeshadow Palette</div>
+                <div class="price">Rs 2299</div>
+                <button id="addtocart" class="addCart">Add to cart</button>
+              </div>
+              <div class="product">
+                <img src="juicer.jpg" alt="" />
+                <div class="desc">Portable Juicer Blender</div>
+                <div class="price">Rs 800</div>
+                <button id="addtocart" class="addCart">Add to cart</button>
+              </div>
+              <div class="product">
+                <img src="trimmer.jpg" alt="" />
+                <div class="desc">Professional Cordless Barber Hair Clippers </div>
+                <div class="price">Rs 1999</div>
+                <button id="addtocart" class="addCart">Add to cart</button>
+              </div>
+            </div>
+          </div>
+          <br>
+          <br>
+          </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
